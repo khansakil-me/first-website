@@ -1,0 +1,19 @@
+button{
+   background-image: linear-gradient(60deg, rgb(5, 233, 214), purple);
+    font-size: 30px;
+    margin: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box,
+    border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    line-height: 40px;
+}
+button:hover {
+    box-shadow: none;
+    color: white;
+}
